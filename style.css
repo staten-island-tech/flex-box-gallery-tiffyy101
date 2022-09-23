@@ -8,9 +8,11 @@ body,
 }
 
 .parent {
-    font-size: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
 .child {
-    border: 1px solid red;
+    border: 1px solid rgb(198, 133, 4);
 }
