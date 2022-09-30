@@ -3,18 +3,20 @@ head,
 body,
 * {
     background-color: rgb(250, 207, 152);
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Mali', cursive;
+    text-align: center;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    flex: 1 30px;
+    flex: 200px;
 }
 
 .parent {
     font-size: 30px;
     display: flex;
     flex-direction: row;
+    width: 90vw;
 }
 
 .child {
