@@ -7,7 +7,7 @@ body,
     padding: 15;
     margin: 20;
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 80%;
     flex: 200px;
     border-radius: 30px;
 }
@@ -18,6 +18,21 @@ body,
     border: 2px solid darkgoldenrod;
     box-shadow: 10px 5px 5px rgb(168, 52, 6);
 }
+
+.h2 {}
+
+a {
+    font-size: 20px;
+    padding: 5;
+    color: brown;
+    background-color: rgb(255, 243, 205);
+    transition: background-color 0.5s;
+}
+
+a:hover {
+    background-color: rgb(244, 196, 74);
+}
+
 
 .parent {
     font-size: 30px;
@@ -30,9 +45,13 @@ body,
     border: 1px solid rgb(198, 133, 4);
     background-color: beige;
     box-shadow: 10px 5px 5px rgb(168, 52, 6);
+    top: ;
 }
 
 .about-img {
     width: 40vh;
     height: 40vh;
+    transform: scale(1.1);
+    outline: 0.1rem solid rgb(198, 133, 4);
+    z-index: 4;
 }
