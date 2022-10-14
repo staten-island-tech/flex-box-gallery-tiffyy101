@@ -21,16 +21,19 @@ body,
 
 a {
     font-size: 20px;
-    padding: 5;
+    padding: 3;
     color: brown;
     background-color: rgb(255, 243, 205);
     transition: background-color 0.5s;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 3px;
 }
 
 a:hover {
     background-color: rgb(244, 196, 74);
+    letter-spacing: 15px;
 }
-
 
 .parent {
     font-size: 30px;
