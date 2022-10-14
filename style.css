@@ -11,7 +11,6 @@ body,
     flex: 200px;
     border-radius: 30px;
 }
-
 .head {
     font-size: 40px;
     background-color: rgb(255, 243, 205);
@@ -28,6 +27,26 @@ a {
     display: block;
     text-decoration: none;
     letter-spacing: 3px;
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 a:hover {
@@ -41,14 +60,12 @@ a:hover {
     flex-direction: row;
     width: 90vw;
 }
-
 .child {
     border: 1px solid rgb(198, 133, 4);
     background-color: beige;
     box-shadow: 10px 5px 5px rgb(168, 52, 6);
     top: ;
 }
-
 .about-img {
     width: 40vh;
     height: 40vh;
@@ -58,7 +75,6 @@ a:hover {
     opacity: 0.5;
     transition: 1s ease;
 }
-
 .about-img:hover {
     transform: scale(1.1);
     outline: 1rem solid brown;
@@ -70,19 +86,7 @@ a:hover {
     transition: 1s ease;
 }
 
-button {
-    text-align: left;
-    height: 40px;
-    width: 40px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 50%;
-    border: 2px solid rgba(0, 0, 0, 0.4);
-    border-top-color: #fff;
-    border-bottom-color: #fff;
-    animation: spinner3 800ms ease infinite;
-    }
-    @keyframes spinner3 {
-    to {
-    transform: rotate(360deg);
-    }
+.input-bar{
+    font-size: 15px;
+    padding: 0;
 }
