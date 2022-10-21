@@ -95,7 +95,7 @@ a:hover {
 }
 
 
-@media screen and (min-width: 390px){
+@media screen and (min-width: 200px){
   .parent{
     flex-direction: column;
     column-gap: 20px;
