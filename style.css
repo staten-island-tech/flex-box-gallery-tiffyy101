@@ -90,3 +90,15 @@ a:hover {
     font-size: 15px;
     padding: 0;
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .head{
+    flex-direction: row;
+  } 
+}
+
+@media screen and (max-height:900px){
+  .head{
+    flex-direction: column;
+  }
+}
